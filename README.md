@@ -13,3 +13,7 @@ The output of build_model.py. Contains a trained model as specified above.
 ## animal_guesser.py
 
 Loads the model from model.pth. Prompts the user to choose whether to input the image path as a URL or a local file. Checks if the provided path is valid and if it contains an image. Preprocesses the image and returns the image as a PyTorch tensor. Runs the tensor through the model to obtain the predicted class probabilities. Returns a string with the predicted animal name and the probability of the prediction.
+
+## animals.txt
+
+The list of animals that the model can identify.
